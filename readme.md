@@ -112,7 +112,7 @@ We segment the market based on:
 - "Reduce work stress in 5 min/day" messaging  
 
 ✅ **For Students**:  
-- TikTok mental health challenges  
+- Instagram mental health challenges  
 - Free journaling features  
 
 ✅ **For Mental Health Enthusiasts**:  
