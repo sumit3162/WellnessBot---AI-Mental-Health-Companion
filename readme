@@ -1,0 +1,101 @@
+# **WellnessBot - AI Mental Health Companion**  
+
+A conversational AI chatbot designed to support mental wellness through mood tracking, journaling, and analytics.  
+
+## **🚀 Features**  
+✔ **AI Chatbot** - Emotionally intelligent conversations  
+✔ **Mood Journal** - Track daily emotions & thoughts  
+✔ **Analytics Dashboard** - Visualize mood trends  
+✔ **Self-Care Tips** - Personalized recommendations  
+✔ **Secure & Private** - End-to-end encrypted  
+
+## **📌 Table of Contents**  
+1. [Installation](#-installation)  
+2. [Usage](#-usage)  
+3. [Tech Stack](#-tech-stack)  
+4. [API Integration](#-api-integration)  
+5. [Contributing](#-contributing)  
+6. [License](#-license)  
+
+---
+
+## **💻 Installation**  
+### **Prerequisites**  
+- Node.js (v16+)  
+- MongoDB Atlas (for cloud DB) or local MongoDB  
+
+### **Setup**  
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/WellnessBot.git
+
+# Install dependencies
+cd WellnessBot
+npm install
+
+# Set up environment variables
+cp .env.example .env
+# Edit .env with your credentials
+
+# Run the app
+npm start
+```
+
+---
+
+## **🎮 Usage**  
+1. **Sign Up / Log In**  
+   - Secure authentication (JWT)  
+   - OTP verification  
+
+2. **Chatbot Interface**  
+   - Type your feelings to get supportive responses  
+   - Example prompts:  
+     - _"I'm feeling stressed today"_  
+     - _"How can I improve my sleep?"_  
+
+3. **Journal & Analytics**  
+   - Add daily journal entries  
+   - View mood trends in the dashboard  
+
+---
+
+## **🛠 Tech Stack**  
+| Component       | Technology |  
+|----------------|------------|  
+| **Frontend**   | React, Chart.js, TailwindCSS |  
+| **Backend**    | Node.js, Express |  
+| **Database**   | MongoDB (Atlas) |  
+| **Auth**       | JWT, OAuth 2.0 |  
+| **AI/NLP**     | TensorFlow.js, Universal Sentence Encoder |  
+
+---
+
+## **🔌 API Integration**  
+### **Available Endpoints**  
+| Endpoint | Method | Description |  
+|----------|--------|-------------|  
+| `/api/auth/signup` | POST | User registration |  
+| `/api/auth/login` | POST | User login |  
+| `/api/chat` | POST | Get AI chatbot response |  
+| `/api/journal` | GET/POST | Fetch or add journal entries |  
+| `/api/analytics` | GET | Mood trend data |  
+
+### **Example Request (Chatbot)**  
+```bash
+curl -X POST http://localhost:3000/api/chat \
+  -H "Authorization: Bearer YOUR_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"message": "I feel anxious today"}'
+```
+
+---
+
+---
+
+## **📜 License**  
+This project is licensed under **MIT License**.  
+
+  
+
+🌟 **Happy Healing with WellnessBot!** 🌟
