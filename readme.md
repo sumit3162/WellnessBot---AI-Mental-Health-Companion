@@ -125,5 +125,8 @@ We segment the market based on:
 
 ---
 
+**login page**
+user admin
+pass pass123
 ## **7. Conclusion**  
 WellnessBot should initially target **Stressed Professionals** and **Students**, as they are the most digitally engaged and willing to adopt AI wellness tools. Expansion into **Mental Health Enthusiasts** and **Therapy Seekers** can follow with premium features.  
